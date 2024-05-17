@@ -5,13 +5,13 @@ import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
 # import langchain
-from src.mcq_generator.utils import read_file, get_table_data
-from src.mcq_generator.logger import logging
+from mcq_generator.utils import read_file, get_table_data
+from mcq_generator.logger import logging
 from langchain.globals import set_verbose
 set_verbose(True)
 import streamlit as st
 from langchain_community.callbacks import get_openai_callback
-from src.mcq_generator.MCQGenerator import generate_and_evaluate_quiz
+from mcq_generator.Mcq_generator import generate_and_evaluate_quiz
 
 
 with open('Response.json', 'r') as file:
@@ -32,7 +32,7 @@ with st.form("user_inputs"):
     mcq_count=st.number_input("No of Questions", min_value=3, max_value=50)
     subject = st.text_input("Insert the Subject", max_chars=20)
     tone=st.text_input("Complexity level of Questions", max_chars=20, placeholder="Simple")
-    input_key = st.text_input("Enter the secret key", max_chars=50, placeholder="Password")
+    input_key = st.text_input("Enter the secret key", max_chars=60, placeholder="Password")
     button = st.form_submit_button("Create MCQs")
     
     # check for button click
