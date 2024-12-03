@@ -1,4 +1,4 @@
-# Automated-MCQ-Generator
+
 
 
 # AI AutoQuizzer with Streamlit
