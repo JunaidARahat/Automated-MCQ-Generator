@@ -1,9 +1,9 @@
-# Automated-MCQ-Generator
 
 
-# AI AutoQuizzer with Streamlit
 
-MCQ Generator with Streamlit is a web application that allows users to upload PDF or text files, specify the number of questions, subject, and tone, and generate multiple-choice questions (MCQs) based on the provided input. The application utilizes OpenAI's language models for natural language processing and provides feedback on the complexity of the generated quiz.
+# AI-AutoQuizzer with Streamlit
+
+AutoQuizzer with Streamlit is a web application that allows users to upload PDF or text files, specify the number of questions, subject, and tone, and generate multiple-choice questions (MCQs) based on the provided input. The application utilizes OpenAI's language models for natural language processing and provides feedback on the complexity of the generated quiz.
 
 ## Features
 
