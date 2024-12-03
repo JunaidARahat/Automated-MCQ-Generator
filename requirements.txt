@@ -12,9 +12,7 @@ streamlit
 # python-dotenv for managing environment variables from a .env file
 python-dotenv
 
-# PyPDF2 for PDF manipulation in Python
-PyPDF2
-
+ PyPDF2 
 langchain_community
 langchain-openai
 
