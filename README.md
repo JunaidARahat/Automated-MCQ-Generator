@@ -1,7 +1,7 @@
 # Automated-MCQ-Generator
 
 
-# MCQ Generator with Streamlit
+# AI AutoQuizzer with Streamlit
 
 MCQ Generator with Streamlit is a web application that allows users to upload PDF or text files, specify the number of questions, subject, and tone, and generate multiple-choice questions (MCQs) based on the provided input. The application utilizes OpenAI's language models for natural language processing and provides feedback on the complexity of the generated quiz.
 
@@ -17,14 +17,14 @@ MCQ Generator with Streamlit is a web application that allows users to upload PD
 - Python 
 - Streamlit library
 - Langchain library
-- OpenAI 
+- Op enAI  
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/mcq-generator-streamlit.git
+    git clone https://github.com/JunaidARahat/AutoQuizzer.git
     ```
 
 2. Install the required dependencies:
