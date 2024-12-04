@@ -1,9 +1,9 @@
 
 
 
-# AI-AutoQuizzer with Streamlit
+# AI-Powered AutoQuizzer with Streamlit
 
-AutoQuizzer with Streamlit is a web application that allows users to upload PDF or text files, specify the number of questions, subject, and tone, and generate multiple-choice questions (MCQs) based on the provided input. The application utilizes OpenAI's language models for natural language processing and provides feedback on the complexity of the generated quiz.
+AI-Powered AutoQuizzer with Streamlit is a web application that allows users to upload PDF or text files, specify the number of questions, subject, and tone, and generate multiple-choice questions (MCQs) based on the provided input. The application utilizes OpenAI's language models for natural language processing and provides feedback on the complexity of the generated quiz.
 
 ## Features
 
@@ -21,7 +21,7 @@ AutoQuizzer with Streamlit is a web application that allows users to upload PDF 
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the  repository:
 
     ```bash
     git clone https://github.com/JunaidARahat/AutoQuizzer.git
